@@ -9,6 +9,7 @@ import thunk from "redux-thunk";
 import { defaultReducer } from './reducers/ruducer'
 
 const store = createStore(defaultReducer, applyMiddleware(thunk));
+//review steps in TK for this
 
 ReactDOM.render(
   <Provider store={store}>
